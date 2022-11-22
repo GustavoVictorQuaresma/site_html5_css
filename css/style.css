@@ -337,9 +337,37 @@ footer{
 		padding: 2px 3.33333333333333%;
 	}
 	
+@media screen and (max-width: 630px){
+	*{
+		margin: 0;
+		padding: 0;
+	}
 	
+	.centro{
+		width: 100%;
+	}
 	
+	h2, a, a:link, a:visited{
+		color: #ff4500;
+	}
 	
+	a:hover{
+		color:2fd02bc;
+	}
+	
+	header{
+		border-bottom: none;
+		height: auto;
+		text-align: center;
+	}
+	
+	header h1 a{
+		background-position: 50%;
+		display: inherit;
+		height: 126px;
+		width: 100%;
+	}
+		
 	
 	
 	
